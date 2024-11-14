@@ -1,0 +1,23 @@
+{
+    "name": "rexgama/dbmaster",
+    "description": "Dynamic admin interface with schema management and form builder for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rexgama\\DBMaster\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "doctrine/dbal": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rexgama\\DBMaster\\DBMasterServiceProvider"
+            ]
+        }
+    }
+}

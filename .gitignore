@@ -1,0 +1,10 @@
+/vendor/
+.env
+.env.backup
+.phpunit.result.cache
+composer.lock
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
